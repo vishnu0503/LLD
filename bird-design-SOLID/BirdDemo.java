@@ -3,26 +3,7 @@ import java.util.List;
 
 public class BirdDemo {
     public static void main(String[] args) {
-//
-//        Bird crow=new Crow("Crow","Small","Black",1);
-//        crow.eat();
-//        crow.dance();
-//
-//        Bird sparrow=new Sparrow("Sparrow","Small","Brown",1.5);
-//        sparrow.eat();
-//        sparrow.dance();
-//
-//        Bird owl=new Owl("Owl","Medium","Black",1);
-//        owl.eat();
-//        owl.dance();
-//
-//        Bird peacock=new Peacock("Peacock","Large","Blue",3);
-//        peacock.eat();
-//        peacock.dance();
-//
-//        Bird penguin=new Penguin("Penguin","Large","Black",20);
-//        penguin.eat();
-//        penguin.dance();
+        
         // To crete a simple fly behaviour
         FlyBehaviour flyBehaviour=new SimpleFlyBehaviour();
         // To create List of Birds
