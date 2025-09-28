@@ -30,6 +30,16 @@ public class SingletonDemo {
             executor.submit(task);
         }
 
+        executor.submit(()->{
+            try
+            {
+                System.out.print("Consume Message");
+            }
+            catch(Exception e)
+            {
+                System.err.println("Exception Occured");
+            }
+        });
         executor.shutdown();
     }
 }
